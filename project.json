@@ -1,0 +1,84 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Static image of Ornn card from LoR with audio equalizer\nYou can change background image and colors of the equalizer",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"backgroundimage" : 
+			{
+				"condition" : "usecustombackground.value == true",
+				"index" : 3,
+				"order" : 103,
+				"text" : "Background Image",
+				"type" : "file",
+				"value" : ""
+			},
+			"backgroundimagesize" : 
+			{
+				"condition" : "usecustombackground.value == true",
+				"index" : 4,
+				"options" : 
+				[
+					{
+						"label" : "Cover",
+						"value" : "cover"
+					},
+					{
+						"label" : "Auto",
+						"value" : "auto"
+					},
+					{
+						"label" : "Contain",
+						"value" : "contain"
+					}
+				],
+				"order" : 104,
+				"text" : "Background Image Size",
+				"type" : "combo",
+				"value" : "cover"
+			},
+			"leftchannelcolor" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Left Channel Color",
+				"type" : "color",
+				"value" : "1 0 0"
+			},
+			"rightchannelcolor" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "Right Channel Color",
+				"type" : "color",
+				"value" : "1 0.6470588235294118 0"
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.8156862745098039 0.15294117647058825 0"
+			},
+			"usecustombackground" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Use Custom Background",
+				"type" : "bool",
+				"value" : true
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Guys" ],
+	"title" : "Ornn from LoR",
+	"type" : "web",
+	"version" : 3,
+	"visibility" : "public",
+	"workshopid" : "2909688477",
+	"workshopurl" : "steam://url/CommunityFilePage/2909688477"
+}
